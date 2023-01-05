@@ -17,7 +17,7 @@
             }
             double d =(double)arr[1] - arr[0];
             double d1;
-            bool hendesisilsiledir = true;
+            bool ededisilsiledir = true;
 
             for (int i = 1; i < arr.Length - 1; i++)
             {
@@ -25,13 +25,13 @@
 
                 if (d != d1)
                 {
-                    Console.WriteLine("Hendesi silsile deyil");
-                    hendesisilsiledir = false;
+                    Console.WriteLine("Ededi silsile deyil");
+                    ededisilsiledir = false;
                     break;
                 }
             }
-                if (hendesisilsiledir)
-                    Console.WriteLine("hendesi silsiledir");
+                if (ededisilsiledir)
+                    Console.WriteLine("Ededi silsiledir");
         }
     }
 }
