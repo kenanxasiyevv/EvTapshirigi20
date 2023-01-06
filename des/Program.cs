@@ -3,7 +3,8 @@
     internal class Program
     {
         static void Main(string[] args)
-        {
+        {   //Ededi silsile olub olmamasinin yoxlanmasi
+            
             Console.Write("Massivin uzunlugunu daxil edin: ");
             int n = int.Parse(Console.ReadLine());
             int[] arr = new int[n];
